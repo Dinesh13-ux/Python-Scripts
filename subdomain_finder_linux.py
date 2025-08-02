@@ -2,6 +2,7 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
@@ -27,8 +28,9 @@ try:
     file.write(f"Subdomains for the domain: {domain}\n{'Subdomain':<60} {'IP Address':<20}\n")
     file.write('-'*80+'\n')
     options = Options()
-    options.add_argument("--headless") 
-    driver = webdriver.Chrome(options=options)
+    options.add_argument("--headless")
+    service = Service("/usr/bin/chromedriver") 
+    driver = webdriver.Chrome(service=service, options=options)
 
     driver.get('https://subdomainfinder.c99.nl/')
 

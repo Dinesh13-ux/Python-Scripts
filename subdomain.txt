@@ -1,6 +1,18 @@
 Subdomains for the domain: tesla.com
 Subdomain                                                    IP Address          
 --------------------------------------------------------------------------------
+Subdomains for the domain: tesla.com
+Subdomain                                                    IP Address          
+--------------------------------------------------------------------------------
+Subdomains for the domain: tesla.com
+Subdomain                                                    IP Address          
+--------------------------------------------------------------------------------
+Subdomains for the domain: tesla.com
+Subdomain                                                    IP Address          
+--------------------------------------------------------------------------------
+Subdomains for the domain: tesla.com
+Subdomain                                                    IP Address          
+--------------------------------------------------------------------------------
 acs2-poc.voice.tesla.com                                     199.120.48.73       
 akamai-apigateway-vehicleextinfogw-prdsvc-st.tesla.com       69.192.160.83       
 ams13-gpgw1.tesla.com                                        199.120.50.30       
